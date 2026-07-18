@@ -69,7 +69,3 @@ The following assets are included in the repository to document the project exec
   - Complete tables showing the breakdown of the 192.168.1.66/28 subnet.
   - Visual proof of static IP assignment, workgroup configuration, and successful ICMP pings.
   - Analysis of the hostname resolution failure and recommended solutions.
- 
- 
-
-Add Network+ SOHO Lab Project

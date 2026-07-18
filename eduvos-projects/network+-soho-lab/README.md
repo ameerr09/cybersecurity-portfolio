@@ -59,10 +59,13 @@ To replicate the virtual network environment:
 4.  **Verification:**
     *   Open Command Prompt and ping each machine by IP and Hostname to verify routing and DNS behavior.
 
+## 📹 Project Demo
+[▶ Watch: UTP Straight-Through Cable Tutorial](https://youtu.be/9F41N_NPfTU)
+*    Step-by-step demonstration of stripping, arranging, and crimping a straight-through UTP cable.
+
 ## 📄 Project Documentation & Media
 The following assets are included in the repository to document the project execution:
 *   [`Subnetting_Calculations.pdf`](./docs/) - Complete tables showing the breakdown of the 192.168.1.66/28 subnet.
-*   [`UTP_Cable_Creation.mp4`](./media/) - Step-by-step demonstration of stripping, arranging, and crimping a straight-through UTP cable.
 *   [`VM_Configuration_Screenshots.md`](./docs/) - Visual proof of static IP assignment, workgroup configuration, and successful ICMP pings.
 *   [`DNS_Troubleshooting_Report.pdf`](./docs/) - Analysis of the hostname resolution failure and recommended solutions.
 

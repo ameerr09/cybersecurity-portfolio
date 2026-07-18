@@ -65,8 +65,11 @@ To replicate the virtual network environment:
 
 ## 📄 Project Documentation & Media
 The following assets are included in the repository to document the project execution:
-*   [`Subnetting_Calculations.pdf`](./docs/) - Complete tables showing the breakdown of the 192.168.1.66/28 subnet.
-*   [`VM_Configuration_Screenshots.md`](./docs/) - Visual proof of static IP assignment, workgroup configuration, and successful ICMP pings.
-*   [`DNS_Troubleshooting_Report.pdf`](./docs/) - Analysis of the hostname resolution failure and recommended solutions.
+*   [Network+ Write-Up.pdf](docs/)
+  - Complete tables showing the breakdown of the 192.168.1.66/28 subnet.
+  - Visual proof of static IP assignment, workgroup configuration, and successful ICMP pings.
+  - Analysis of the hostname resolution failure and recommended solutions.
+ 
+ 
 
 Add Network+ SOHO Lab Project

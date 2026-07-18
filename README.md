@@ -52,3 +52,54 @@ foundation for my awareness training work.
 |---|---|---|
 | [Network+ SOHO Lab](./eduvos-projects/network+-soho-lab/) | Subnetting, VMs, DNS troubleshooting | Understanding network basics attackers exploit |
 |
+
+## 🔧 Independent Work
+
+### Home Lab (In Progress — Weekly Documentation)
+*Building a personal security lab to simulate attack and defence 
+scenarios.*
+- Setup: Lenovo IdeaPad (Intel i7, 16GB RAM, 8GB GPU) running Oracle VirtualBox.
+- Current focus: Honeypot Threat Intelligence Lab
+- Goal: Collect real attacker behavior using honeypots.
+
+### Pilot Security Awareness Workshop (Planned Q4 2026)
+*Designing and delivering a security awareness session for a 
+local SME.*
+- Target audience: non-technical staff
+- Content: phishing recognition, password hygiene, social 
+  engineering red flags
+- Deliverable: pre/post knowledge assessment with measurable 
+  outcome
+- Status: In development — contact me if your business wants 
+  to participate
+
+---
+
+## 👥 Teaching & Client-Facing Experience
+
+**Muay Thai Coach & Personal Trainer** | 2020–Present
+- 6 years training, 6th grade — coaching multiple weekly group 
+  classes and individual PT sessions
+- Adapted complex physical and strategic skills for clients 
+  across fitness levels and learning styles
+- Relevant to security training: curriculum design, live 
+  facilitation, performance under pressure, client relationship 
+  management
+
+**Founder & CSO — Ameer Fragrances** | Cape Town
+- Founded and operate a fine fragrance brand targeting Gen Z 
+  and young professionals
+- Manages marketing, sales, supplier relationships, and brand 
+  strategy
+- Relevant to security training: understanding of social 
+  engineering psychology (persuasion, trust, authority cues), 
+  SME operational context, client communication
+
+---
+
+## 📜 Credentials
+
+| Qualification | Institution | Status |
+|---|---|---|
+| BSc IT: Security & Network Engineering | Eduvos, Mowbray | In Progress (2026) |
+| Higher Certificate in Cybersecurity | Eduvos, Mowbray | Completed 2025 |

@@ -13,7 +13,7 @@ This project demonstrates foundational network engineering skills by designing, 
 - [Key Implementations](#-key-implementations)
 - [Setup & Configuration Instructions](#-setup--configuration-instructions)
 - [Project Documentation & Media](#-project-documentation--media)
-- [License](#-license)
+- [License](LICENSE)
 
 ## 🏗️ Architecture & Topology
 The project simulates a remote office network leveraging a `192.168.1.66/28` address space.

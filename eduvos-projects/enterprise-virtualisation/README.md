@@ -46,7 +46,7 @@ To replicate this proof-of-concept in a lab environment:
 
 ## 📄 Project Documentation
 Comprehensive reports and planning documents are available in the `/docs` directory:
-*   [`A+-Enterprise-lab.pdf`](eduvos-projects/enterprise-virtualisation/docs/A+-Enterprise-lab.pdf) - Complete project documentation including hypervisor comparative analysis, step-by-step migration planning, ROI cost-benefit calculations, and deployment risk assessments.
+*   [`A+-Enterprise-lab.pdf`](docs/A+-Enterprise-lab.pdf) - Complete project documentation including hypervisor comparative analysis, step-by-step migration planning, ROI cost-benefit calculations, and deployment risk assessments.
 
 ## 🔐 Relevance to Security Awareness Training
 Most employees have no mental model of how ransomware spreads — they assume it's an IT problem, not a behaviour problem. This project demonstrates exactly how fast a compromised machine can reach critical systems when network isolation is delayed. That simulation is the foundation of a concrete training module: showing non-technical staff the 90-second window between "something looks wrong" and "the database is encrypted" makes the case for immediate reporting better than any policy document.

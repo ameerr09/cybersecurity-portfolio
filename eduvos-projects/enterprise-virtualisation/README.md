@@ -52,4 +52,4 @@ Comprehensive reports and planning documents are available in the `/docs` direct
 Most employees have no mental model of how ransomware spreads — they assume it's an IT problem, not a behaviour problem. This project demonstrates exactly how fast a compromised machine can reach critical systems when network isolation is delayed. That simulation is the foundation of a concrete training module: showing non-technical staff the 90-second window between "something looks wrong" and "the database is encrypted" makes the case for immediate reporting better than any policy document.
 
 ## 📜 License
-This project is licensed under the [MIT License](cybersecurity-portfolio/LICENSE).
+This project is licensed under the [MIT License](LICENSE).

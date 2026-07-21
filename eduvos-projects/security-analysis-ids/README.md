@@ -52,7 +52,7 @@ To replicate this security lab environment:
     *   Add custom alert and detection filter rules to `local.rules` for FTP and FIN scan detection.
 
 ## 📄 Project Documentation
-*   [`ITVSA0-44-Formative_Assessment.pdf`](docs/ITVSA0-44-Formative_Assessment.pdf) - Comprehensive lab documentation, including Wireshark traffic captures, Metasploit exploitation logs, Nessus vulnerability reports, and Snort configuration syntax.
+*   [`security-analysis-ids.pdf`](docs/security-analysis-ids.pdf) - Comprehensive lab documentation, including Wireshark traffic captures, Metasploit exploitation logs, Nessus vulnerability reports, and Snort configuration syntax.
 
 ## 🔐 Relevance to Security Awareness Training
 Imagine standing in front of a room of non-technical staff and telling them: "Hackers do not just magically bypass our front door; they rattle every single window first." In this project, I mapped exactly what that "rattling" looks like on the network level. By showing employees a live Snort alert firing fifty times a second because an automated tool is trying to guess an FTP password, the abstract idea of "use a complex password" becomes a visible, urgent reality. Understanding how rapidly tools like Metasploit compromise weak credentials allows me to confidently explain *why* we enforce account lockouts—turning a frustrating IT policy into a logical defence mechanism the staff actively supports.

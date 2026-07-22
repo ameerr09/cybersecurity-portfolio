@@ -53,6 +53,7 @@ foundation for my awareness training work.
 | [Network+ SOHO Lab](./eduvos-projects/network+-soho-lab/) | Subnetting, VMs, DNS troubleshooting | Understanding network basics attackers exploit |
 | [CySA+ IDS Lab: Brute-Force Attack & Snort Defence](./eduvos-projects/security-analysis-ids) | Metasploit, Snort, Nessus, Wireshark | Demonstrating to staff exactly what automated credential attacks look like — and why account lockout policies exist |
 | [Linux Lab: Insider Threat Mitigation & Backup Failure Detection](./eduvos-projects/linux-secure-automation/) | Bash scripting, chmod ACLs, mailutils, Ubuntu 24.04 | Making the Principle of Least Privilege tangible for SME owners — one chmod command prevents staff from accessing HR backups |
+| [Linux Lab: IAM Enforcement & Automated Patching](./eduvos-projects/endpoint-access-control/) | chage, chmod, crontab, Netplan, Ubuntu 24.04 | Explaining to staff why password expiry policies exist — and what an attacker does with a stolen credential during the window before it's changed |
 
 ## 🔧 Independent Work
 

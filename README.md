@@ -51,7 +51,7 @@ foundation for my awareness training work.
 | Project | Core Skills | Relevance to Awareness Training |
 |---|---|---|
 | [Network+ SOHO Lab](./eduvos-projects/network+-soho-lab/) | Subnetting, VMs, DNS troubleshooting | Understanding network basics attackers exploit |
-|
+| [CySA+ IDS Lab: Brute-Force Attack & Snort Defence](./eduvos-projects/security-analysis-ids) | Metasploit, Snort, Nessus, Wireshark | Demonstrating to staff exactly what automated credential attacks look like — and why account lockout policies exist |
 
 ## 🔧 Independent Work
 

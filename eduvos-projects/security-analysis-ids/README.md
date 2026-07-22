@@ -1,11 +1,11 @@
-# Detecting Network Intrusions and Brute-Force Attacks: Enterprise Security Lab
+# CySA+ Security Lab: Brute-Force Attack Execution & Snort IDS Defence
 
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
 ![Course: Higher Certificate](https://img.shields.io/badge/Course-Higher_Certificate-blue)
 ![Focus: Security_Operations](https://img.shields.io/badge/Focus-Security_Operations-red)
 
 ## 📌 Project Overview
-Engineered an isolated enterprise network environment using Windows Server 2022 and Kali Linux to execute and subsequently defend against targeted cyber attacks. Executed offensive reconnaissance, stealth scanning, and brute-force credential attacks to compromise a misconfigured FTP service. Deployed Snort as a host-based Intrusion Detection System (IDS), authoring custom detection rules and rate-limiting logic to successfully intercept and log the malicious network traffic.
+Built an isolated enterprise attack/defence lab to simulate a real threat scenario end-to-end: first compromising a misconfigured FTP service on a Windows Server 2022 domain controller using Metasploit brute-force techniques, then pivoting to the defensive role — deploying Snort as a host-based IDS with custom detection rules and rate-limiting logic to intercept and log the same attack pattern. Validated detection accuracy using Wireshark packet analysis and identified residual vulnerabilities via Tenable Nessus, producing a prioritised patching recommendation.
 
 ## 🏗️ Architecture & Lab Topology
 The environment operates on an isolated virtual network (`192.168.20.0/24`):
@@ -37,7 +37,7 @@ To replicate this security lab environment:
 1.  **Target Provisioning (Windows Server):**
     *   Install Windows Server 2022, rename the machine to `DC`, and assign the static IP `192.168.20.1`.
     *   Promote the server to a Domain Controller for the `ignite.net` forest.
-    *   Install IIS and configure an FTP site named "IGNITE" bound to port 21 (No SSL, Basic Authentication, Read/Write permissions).
+    *   Install IIS and configure an FTP site named "IGNITE" bound to port 21 (deliberately misconfigured — No SSL, Basic Authentication, Read/Write permissions — to simulate a vulnerable production service as the attack target).
     *   Configure Windows Defender Firewall to allow File/Printer Sharing and inbound TCP Port 21 traffic.
 2.  **Attacker Provisioning (Kali Linux):**
     *   Install Kali Linux and assign the static IP `192.168.20.2` via `/etc/network/interfaces`.

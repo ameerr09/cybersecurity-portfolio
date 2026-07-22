@@ -1,4 +1,4 @@
-# Securing SME Infrastructure: Linux Permissions & Automated Disaster Recovery
+# Linux Lab: Insider Threat Mitigation & Automated Backup Failure Detection for SME Environments
 
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
 ![Course: Higher Certificate](https://img.shields.io/badge/Course-Higher_Certificate-blue)
@@ -48,12 +48,10 @@ To replicate this environment and test the shell scripts:
     *   Run the script: `./backup.sh`
 
 ## 📄 Project Documentation & Media
-*   [`backup.sh`](scripts/backup.sh) - The primary shell script handling dual-destination backups and email alerting.
-*   [`ITLXA0-22-Formative_Assessment.pdf`](docs/ITLXA0-22-Formative_Assessment.pdf) - Full documentation of CLI operations, OS configurations, and script testing.
-*   **Video Demonstration:** [Insert Unlisted YouTube Video Link Here] - A walkthrough explaining the diagnosis and recovery of Linux boot halts.
-
+*   [`linux-secure-automation`](docs/linux-secure-automation.pdf) - Full documentation of CLI operations, OS configurations, and script testing.
+*   **Video Demonstration:** [Linux Recovery Mode & initramfs Diagnostics — Ubuntu 24.04 Lab](https://youtu.be/4Ktyb98q1iY) - Walkthrough of diagnosing and recovering from simulated Linux boot failures in an SME virtualised environment.
 ## 🔐 Relevance to Security Awareness Training
-When consulting for small business owners, the most devastating threat is rarely a sophisticated foreign hacker—it is "silent failure" and insider risk. By demonstrating how a simple `chmod 700` command prevents unauthorised staff from snooping through sensitive HR backups, I can make the Principle of Least Privilege immediately tangible. Furthermore, showing a script that emails the IT team the exact second a backup fails helps business owners understand why "set it and forget it" data recovery policies routinely destroy companies during a ransomware attack. 
+The most devastating threat facing small business owners is rarely a sophisticated external attacker — it is silent failure and the trusted insider with too much access. By demonstrating how a simple `chmod 700` command prevents unauthorised staff from snooping through sensitive HR backups, I can make the Principle of Least Privilege immediately tangible. Furthermore, showing a script that emails the IT team the exact second a backup fails helps business owners understand why "set it and forget it" data recovery policies routinely destroy companies during a ransomware attack. 
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

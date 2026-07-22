@@ -62,7 +62,7 @@ The project relies on a bridged networking architecture allowing the virtualised
     *   Add to crontab via `crontab -e`: `0 5 1 10 5 /home/username/update`[cite: 7].
 
 ## 📄 Project Documentation
-*   [`ITLIA0-44-Formative_Project.pdf`](docs/ITLIA0-44-Formative_Project.pdf) - Complete academic submission documenting static IP assignment, IAM policy enforcement, automated patching via crontab, and cross-platform RDP configuration.
+*   [`endpoint-access-control.pdf`](docs/endpoint-access-control.pdf) - Complete academic submission documenting static IP assignment, IAM policy enforcement, automated patching via crontab, and cross-platform RDP configuration.
 
 ## 🔐 Relevance to Security Awareness Training
 When training staff on password policies, telling them they "must change it every 14 days" often sounds like arbitrary IT punishment. In this project, I configured the exact backend tools (`chage`) that enforce these lifecycles. During a workshop, I use this backend knowledge to tell a practical story: these lockouts aren't designed to annoy staff; they mathematically close the window of opportunity for an attacker who might have compromised a password without the user's knowledge. Showing how easily a folder can be locked down (`chmod o-r`) or protected from deletion (`chmod +t`) also reinforces why saving sensitive data on public desktops is a massive risk. It bridges the gap between "annoying company policy" and "active threat defence."

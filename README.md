@@ -55,6 +55,7 @@ foundation for my awareness training work.
 | [CySA+ IDS Lab: Brute-Force Attack & Snort Defence](./eduvos-projects/security-analysis-ids) | Metasploit, Snort, Nessus, Wireshark | Demonstrating to staff exactly what automated credential attacks look like — and why account lockout policies exist |
 | [Linux Lab: Insider Threat Mitigation & Backup Failure Detection](./eduvos-projects/linux-secure-automation/) | Bash scripting, chmod ACLs, mailutils, Ubuntu 24.04 | Making the Principle of Least Privilege tangible for SME owners — one chmod command prevents staff from accessing HR backups |
 | [Linux Lab: IAM Enforcement & Automated Patching](./eduvos-projects/endpoint-access-control/) | chage, chmod, crontab, Netplan, Ubuntu 24.04 | Explaining to staff why password expiry policies exist — and what an attacker does with a stolen credential during the window before it's changed |
+| [PenTest+ Lab: From SQL Injection to Domain Takeover](./eduvos-projects/pentest-full-chain-compromise/) | Metasploit, MSFvenom, Nmap, SQLi, Active Directory, Token Impersonation | Two training stories in one lab — why employees must never plug in unknown USB drives, and why the login page your receptionist uses every day needs to be secured |
 
 ## 🔧 Independent Work
 

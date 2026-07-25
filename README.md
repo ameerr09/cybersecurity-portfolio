@@ -57,6 +57,7 @@ foundation for my awareness training work.
 | [Linux Lab: IAM Enforcement & Automated Patching](./eduvos-projects/endpoint-access-control/) | chage, chmod, crontab, Netplan, Ubuntu 24.04 | Explaining to staff why password expiry policies exist — and what an attacker does with a stolen credential during the window before it's changed |
 | [PenTest+ Lab: From SQL Injection to Domain Takeover](./eduvos-projects/threat-simulation-pentest/) | Metasploit, MSFvenom, Nmap, SQLi, Active Directory, Token Impersonation | Two training stories in one lab — why employees must never plug in unknown USB drives, and why the login page your receptionist uses every day needs to be secured |
 | [Security+ Lab: Understanding the Attacker's View — Recon & Vulnerability Assessment](./eduvos-projects/security-plus-recon-vuln/) | Nmap, Burp Suite, Metasploitable 2, CVSS, OWASP Top 10 | Two training hooks: why "please click update" is a critical defence against someone actively casing your servers — and why IT fixes some vulnerabilities tonight and schedules others for next month |
+| [SecurityX Lab: Architecting Defences — Enterprise Risk, Cloud Security & Insider Threat Management](./eduvos-projects/securityx-enterprise-risk/) | SECaaS, Blockchain integrity, NIST CSF, ISO 27001, SIEM, POPIA/PCI DSS | The "what happens to the IT admin who thinks he's being fired" question — reframing M&A insider threat from abstract compliance risk into an urgent, human operational problem |
 
 ## 🔧 Independent Work
 

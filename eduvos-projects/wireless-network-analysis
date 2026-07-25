@@ -1,0 +1,71 @@
+# Network Security Lab: DNS Interception & Cleartext Traffic Exposure on Unsecured Networks
+
+![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
+![Course: Higher Certificate](https://img.shields.io/badge/Course-Higher_Certificate-blue)
+![Focus: Network_Security](https://img.shields.io/badge/Focus-Network_Security-purple)
+
+## 📌 Project Overview
+Built a dual-node virtualised network environment to 
+replicate a public-facing ISP topology and demonstrate 
+the complete visibility of unencrypted DNS traffic to 
+a passive network observer. Provisioned Windows 10 and 
+Kali Linux endpoints using bridged network adapters to 
+simulate real-world DHCP assignments, confirming 
+bidirectional connectivity and measuring packet transit 
+paths via ICMP and traceroute diagnostics. Executed live 
+packet captures using Wireshark to intercept and dissect 
+DNS queries and authoritative server responses in 
+cleartext — proving that standard, unencrypted browsing 
+activity is fully readable to anyone on the same network 
+segment.
+
+## 🏗️ Architecture & Lab Topology
+The environment was constructed using Oracle VM VirtualBox, featuring two interconnected virtual machines assigned dynamic IP addresses via a Bridged Adapter to simulate a public-facing network:
+
+*   **Node 1 (Attacker/Analyser):** Kali Linux (Hostname: `Rasool_1`, 2GB RAM, 50GB VDI)
+*   **Node 2 (Target/Client):** Windows 10 (Hostname: `Rasool_2`, 4GB RAM, 50GB VDI)
+*   **Network Configuration:** Bridged Adapter (Intel Wi-Fi 6 AX203) leasing DHCP addresses (`192.168.68.x` subnet).
+
+## 💻 Technologies & Tools Used
+*   **Virtualisation:** Oracle VM VirtualBox
+*   **Operating Systems:** Kali Linux, Windows 10
+*   **Network Analysis:** Wireshark
+*   **Command-Line Diagnostics:** `ip a`, `ipconfig`, `ping`
+*   **Network Routing Tools:** `traceroute` (Linux), `tracert` (Windows)
+
+## 🚀 Key Implementations
+*   Provisioned a dynamic virtual network, allowing both Kali Linux and Windows 10 instances to pull public-facing IP addresses via DHCP while maintaining local visibility.
+*   Mapped bidirectional network paths and measured packet transit delays by executing `traceroute 192.168.68.54` (Kali to Windows) and `tracert 192.168.68.61` (Windows to Kali).
+*   Intercepted live network traffic on the Kali Linux `eth0` interface using Wireshark during an active browsing session to `gaia.cs.umass.edu`.
+*   Filtered the packet capture for `dns` protocols to isolate and dissect Standard Queries (Type A, Class IN) and their corresponding authoritative server responses, exposing the cleartext nature of standard DNS requests.
+
+## 🛠️ Setup & Configuration Instructions
+To replicate this network analysis lab:
+
+### Prerequisites
+*   Oracle VirtualBox 7.0+
+*   ISOs for Windows 10 and Kali Linux (Ubuntu 64-bit architecture).
+
+### Lab Initialisation
+1.  **VM Creation:**
+    *   Create VM 1: Name it `Rasool_1`, allocate 2048MB RAM and 50GB storage, and install Kali Linux.
+    *   Create VM 2: Name it `Rasool_2`, allocate 4096MB RAM and 50GB storage, and install Windows 10.
+2.  **Network Configuration:**
+    *   In VirtualBox settings for both VMs, set the Network Adapter to **Bridged Adapter** to pull an IP from the physical router's DHCP.
+3.  **Interface Validation & Routing:**
+    *   On Kali Linux, run `ip addr` to identify the IP address (e.g., `192.168.68.61`).
+    *   On Windows 10, run `ipconfig` to identify the IP address (e.g., `192.168.68.54`).
+    *   Test bidirectional routing using `traceroute [Windows_IP]` and `tracert [Kali_IP]`.
+4.  **Traffic Analysis Execution:**
+    *   Launch Wireshark on Kali Linux and begin a live capture on the `eth0` interface.
+    *   Open Firefox and navigate to `http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html`.
+    *   Stop the capture, apply the `dns` display filter, and inspect the Transaction IDs and Flags of the resulting queries.
+
+## 📄 Project Documentation
+*   [`ITNSA0-33-Project-Eduvos_Mowbray.pdf`](docs/ITNSA0-33-Project-Eduvos_Mowbray.pdf) - Complete project documentation including network interface configurations, `traceroute` diagnostics, and detailed Wireshark DNS packet inspection screenshots.
+
+## 🔐 Relevance to Security Awareness Training
+When employees connect their corporate laptops to public airport or hotel Wi-Fi, they often assume their web traffic is invisible. In this project, I used Wireshark to literally pull DNS requests out of thin air, showing exactly which websites a machine is asking to visit. When I train staff on the mandatory use of corporate VPNs, I don't just tell them "it encrypts your data"—I show them this exact packet capture. Seeing their computer broadcast "Where is facebook.com?" or "Where is the corporate payroll portal?" in cleartext across the network makes the abstract concept of eavesdropping immediately real. It makes the abstract threat of eavesdropping immediately visible — and gives employees a concrete reason to trust the VPN policy rather than resent it.
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

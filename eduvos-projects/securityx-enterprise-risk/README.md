@@ -26,7 +26,7 @@ The theoretical analysis covers the following business cases:
 *   **Delware Inc. (ERM & M&A):** Navigating the security and personnel risks of acquiring a smaller competitor while attempting to unify a fragmented, multi-vendor intrusion detection infrastructure into a cohesive SIEM environment.
 
 ## 📄 Project Documentation
-*   [securityx-enterprise-risk.pdf`](docs/securityx-enterprise-risk.pdf) - Comprehensive strategic analysis covering SECaaS adoption, decentralised financial ledgers, acquisition insider threats, and SIEM interoperability challenges.
+*   [securityx-enterprise-risk.pdf](docs/securityx-enterprise-risk.pdf) - Comprehensive strategic analysis covering SECaaS adoption, decentralised financial ledgers, acquisition insider threats, and SIEM interoperability challenges.
 
 ## 🔐 Relevance to Security Awareness Training
 When explaining insider threats and access control to HR or 

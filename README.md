@@ -56,6 +56,7 @@ foundation for my awareness training work.
 | [Linux Lab: Insider Threat Mitigation & Backup Failure Detection](./eduvos-projects/linux-secure-automation/) | Bash scripting, chmod ACLs, mailutils, Ubuntu 24.04 | Making the Principle of Least Privilege tangible for SME owners — one chmod command prevents staff from accessing HR backups |
 | [Linux Lab: IAM Enforcement & Automated Patching](./eduvos-projects/endpoint-access-control/) | chage, chmod, crontab, Netplan, Ubuntu 24.04 | Explaining to staff why password expiry policies exist — and what an attacker does with a stolen credential during the window before it's changed |
 | [PenTest+ Lab: From SQL Injection to Domain Takeover](./eduvos-projects/threat-simulation-pentest/) | Metasploit, MSFvenom, Nmap, SQLi, Active Directory, Token Impersonation | Two training stories in one lab — why employees must never plug in unknown USB drives, and why the login page your receptionist uses every day needs to be secured |
+| [Security+ Lab: Understanding the Attacker's View — Recon & Vulnerability Assessment](./eduvos-projects/security-plus-recon-vuln/) | Nmap, Burp Suite, Metasploitable 2, CVSS, OWASP Top 10 | Two training hooks: why "please click update" is a critical defence against someone actively casing your servers — and why IT fixes some vulnerabilities tonight and schedules others for next month |
 
 ## 🔧 Independent Work
 

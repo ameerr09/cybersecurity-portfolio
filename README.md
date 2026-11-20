@@ -1,7 +1,7 @@
 # Cybersecurity Portfolio - Ameer Ismail Rasool
 ### Security Awareness & Training | BSc Security & Network Engineering (Eduvos, 2026)
 📍 Cape Town, South Africa | 📧 ameerrmedia@gmail.com | 
-🔗 [LinkedIn]([LinkedIn](https://www.linkedin.com/in/ameer-rasool-a47203255/)) | 📄 [CV](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/ameer-rasool-a47203255/)) | 📄 [CV](#)
 
 ---
 
